@@ -9,6 +9,6 @@ public class AuthController {
     @GetMapping("/")
     public String Hello(){
 
-        return "Hello";
+        return "Hello Authenticated User";
     }
 }
